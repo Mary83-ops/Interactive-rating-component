@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --mediumGrey: hsl(216, 12%, 54%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--veryDarkBlue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card {
+    background-color: var(--darkBlue);
+    border-radius: 1rem;
+    width: 25rem;
+    padding: 1.5rem;
+}
+
+.icon {
+    background-color: hsl(213deg, 20%, 22%);
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-rating h1 {
+    color: var(--white);
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.card-rating p {
+    color: var(--mediumGrey);
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ratings span {
+    background-color: hsl(213deg, 20%, 22%);
+    color: var(--mediumGrey);
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ratings span:hover {
+    background-color: var(--lightGrey);
+    color: var(--White);
+}
+
+.card-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 2rem;
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.card-thankyou {
+    text-align: center;
+}
+
+.feedback {
+    background-color: hsl(213deg, 20%, 22%);
+    color: var(--orange);
+    border-radius: 2rem;
+    margin: 1rem auto;
+    font-size: 14px;
+    padding: 0.7rem;
+    width: fit-content;
+}
+
+.feedback-title {
+    color: var(--white);
+}
+
+.feedback-desc {
+    color: var(--lightGrey);
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.checked {
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+ }
