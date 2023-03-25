@@ -13,7 +13,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ## Links
 
 - [Solution URL](https://github.com/Mary83-ops/Interactive-rating-component.git)
-- [Live Site URL](https://mary83-ops.github.io/Product-preview-card-component/)
+- [Live Site URL](https://mary83-ops.github.io/Interactive-rating-component/)
 
 ## Built with
 
